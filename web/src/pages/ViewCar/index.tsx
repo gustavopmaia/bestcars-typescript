@@ -1,6 +1,5 @@
 import React from 'react'
 import api from '../../services/api'
-import cookie from 'cookiejs'
 import { useEffect, useState } from 'react'
 import { Menu } from '../../components/Menu'
 import { Footer } from '../../components/Footer'

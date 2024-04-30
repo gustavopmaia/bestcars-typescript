@@ -21,7 +21,7 @@ export const Menu = () => {
           <Link to='/users'>Users</Link>
         </ListItem>
         <ListItem>
-          <Link to='/update'>Update User</Link>
+          <Link to='/update-user'>Update User</Link>
         </ListItem>
         <ListItem>
           <Link to='/delete'>Delete User</Link>

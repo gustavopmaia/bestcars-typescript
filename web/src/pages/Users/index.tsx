@@ -12,6 +12,19 @@ interface User {
   email: string
 }
 
+const user = [
+  {
+    id: 1,
+    name: 'Gustavo Maia',
+    email: 'gustavo@teste.com',
+  },
+  {
+    id: 2,
+    name: 'Gustavo Maia',
+    email: 'gustavo2@teste.com',
+  },
+]
+
 const Users = () => {
   let config = {
     headers: {

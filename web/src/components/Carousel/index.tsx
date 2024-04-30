@@ -16,12 +16,12 @@ export const CarouselPage = () => {
     {
       name: 'Random Name #1',
       description: 'Probably the most random thing you have ever seen!',
-      image: '../../../public/banner.jpeg',
+      image: '/banner.jpeg',
     },
     {
       name: 'Random Name #2',
       description: 'Hello World!',
-      image: '../../../public/banner-carro.png',
+      image: '/banner-carro.png',
     },
   ]
 
