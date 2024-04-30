@@ -9,7 +9,7 @@ export const Navbar = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f2f2f2;
+  background-color: #206ca6;
   padding: 10px;
   color: black;
 `

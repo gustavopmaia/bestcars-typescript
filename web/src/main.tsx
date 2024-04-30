@@ -8,6 +8,9 @@ import Users from './pages/Users'
 import { Home } from './pages/Home'
 import { Update } from './pages/UpdateUser'
 import { Delete } from './pages/DeleteUser'
+import { Cars } from './pages/ViewCars'
+import { CreateCar } from './pages/CreateCar'
+import { Car } from './pages/ViewCar'
 
 const router = createBrowserRouter([
   {
@@ -33,6 +36,18 @@ const router = createBrowserRouter([
   {
     path: '/delete',
     element: <Delete />,
+  },
+  {
+    path: '/cars',
+    element: <Cars />,
+  },
+  {
+    path: '/create-car',
+    element: <CreateCar />,
+  },
+  {
+    path: '/car',
+    element: <Car />,
   },
 ])
 

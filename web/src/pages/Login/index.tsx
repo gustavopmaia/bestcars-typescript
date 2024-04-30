@@ -4,6 +4,7 @@ import { InputField } from '../../components/InputField'
 import { Menu } from '../../components/Menu'
 import cookie from 'cookiejs'
 import { Footer } from '../../components/Footer'
+import { PageTitle } from '../../components/PageTitle'
 
 export const Login = () => {
   interface user {
@@ -46,6 +47,7 @@ export const Login = () => {
     <div className='App'>
       <Menu />
       <form className='flex flex-col items-center justify-center' onSubmit={handleSubmit}>
+        <PageTitle>Login</PageTitle>
         <InputField label='E-mail' type='email' id='email' name='email' />
         <InputField label='Senha' type='password' id='senha' name='password' />
 
@@ -56,7 +58,7 @@ export const Login = () => {
           ENVIAR
         </button>
       </form>
-      <Footer />
+      <Footer fixed />
     </div>
   )
 }

@@ -3,6 +3,7 @@ import api from '../../services/api'
 import { InputField } from '../../components/InputField'
 import { Menu } from '../../components/Menu'
 import { Footer } from '../../components/Footer'
+import { PageTitle } from '../../components/PageTitle'
 
 export const Register = () => {
   interface user {
@@ -47,6 +48,7 @@ export const Register = () => {
     <div className='App'>
       <Menu />
       <form className='flex flex-col items-center justify-center' onSubmit={handleSubmit}>
+        <PageTitle>Login</PageTitle>
         <InputField label='Nome' type='text' id='nome' name='nome' />
         <InputField label='E-mail' type='email' id='email' name='email' />
         <InputField label='Senha' type='password' id='senha' name='password' />
@@ -60,7 +62,7 @@ export const Register = () => {
 
         <h1>{user?.name}</h1>
       </form>
-      <Footer />
+      <Footer fixed />
     </div>
   )
 }

@@ -1,11 +1,14 @@
 import { Link } from 'react-router-dom'
 import { Logo, Navbar, List, ListItem } from './styles'
+import logo from '/logo.png'
 
 export const Menu = () => {
   return (
     <Navbar>
       <Logo>
-        <Link to='/'>LOGO</Link>
+        <Link to='/'>
+          <img src={logo} alt='Logo' />
+        </Link>
       </Logo>
       <List>
         <ListItem>

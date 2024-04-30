@@ -25,13 +25,6 @@ Para executar as aplicações em modo de desenvolvimento, use o seguinte comando
 npm run dev
 ```
 
-## Aplicacao
-
-![Home Page](./img/Pagina%20Home.png)
-![Login Page](./img/Pagina%20Login.png)
-![Register Page](./img/Pagina%20Registro.png)
-![Users Page](./img/Pagina%20Users.png)
-
 ## Contribuição
 
 Contribuições são bem-vindas! Por favor, consulte as documentações do backend e do frontend para entender melhor a estrutura e as convenções de código de cada aplicação.

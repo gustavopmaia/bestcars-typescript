@@ -115,7 +115,7 @@ export const Delete = () => {
           </Box>
         </Modal>
       </S.Container>
-      <Footer />
+      <Footer fixed />
     </div>
   )
 }

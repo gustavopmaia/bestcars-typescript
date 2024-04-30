@@ -23,6 +23,7 @@ const Users = () => {
   const [error, setError] = useState<string>('')
 
   useEffect(() => {
+    console.log(users)
     const fetchUsers = async () => {
       try {
         if (!config.headers.Authorization) {
@@ -57,7 +58,7 @@ const Users = () => {
           </UserList>
         </ContainerList>
       </Container>
-      <Footer />
+      <Footer fixed />
     </>
   )
 }
